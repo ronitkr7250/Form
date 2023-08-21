@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form and Input Tag</title>
+</head>
+
+<body>
+    <h1>This is My Input Tag</h1>
+    <form action="backend.php">
+        <label for="Name">Name</label>
+        <div>
+           <input type="text" name="Myname" id="Name">
+        </div>
+        <br>
+        <div>
+            Father Name: <input type="text">
+        </div>
+        <br>
+        <div>
+            Role: <input type="text">
+        </div>
+        <br>
+        <div>
+            Email: <input type="Email" name="Myemail">
+        </div>
+        <br>
+        <div>
+            phone number: <input type="number" name="Mynumber">
+        </div>
+        <br>
+        <div>
+            Date of Birth: <input type="date">
+        </div>
+        <br>
+        <div>
+            Gender: Male <input type="radio" name="Myname">
+            Female <input type="radio" name="Myname">
+            Other <input type="radio" name="Myname">
+        </div>
+        <br>
+        <div>
+            <label for="Eligible">Are You Eligible</label>
+            <input type="checkbox" name="Eligible" id="Eligible" checked>
+        </div>
+        <br>
+        <div>
+            <label for="Car">Car</label>
+            <select name="Car" id="Car">
+                <option value="slt">Select</option>
+                <option value="ind">Indica</option>
+                <option value="swt">swift</option>
+                <option value="hon" selected>Honda</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            Write your self: <br><textarea name="" id="" cols="80" rows="10"></textarea>
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="Submit Now">
+            <input type="reset" value="Reset Now">
+        </div>
+    </form>
+</body>
+
+</html>
